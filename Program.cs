@@ -4,7 +4,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
-// comentario nuevo de git
+// comentario nuevo de git 1,0
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
